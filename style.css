@@ -1,18 +1,26 @@
-/*Reset*/
+/*Reset do CSS*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 img {
     width: 100%;
     height: auto;
+}
+/* ??????????*/
+body {
+    font: 400 1rem 'Dm Sans', sans-serif
+    ;
 }
 :root {
 }
 
 #header {
-    height: 4,5rem;
+    height: 4.5rem;
 }
 nav {
     display: flex;
@@ -31,4 +39,4 @@ nav {
 }
 
 
-
+/*======== HOME ========*/
