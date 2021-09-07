@@ -1,20 +1,9 @@
-/*Reset do CSS*/
+/*==========RESET DO CSS =============*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-a {
-    text-decoration: none;
-}
-img {
-    width: 100%;
-    height: auto;
-}
-/* ??????????*/
-body {
-    font: 400 1rem 'Dm Sans', sans-serif
-    ;
 }
 :root {
 }
@@ -22,21 +11,12 @@ body {
 #header {
     height: 4.5rem;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 .logo {
 
 }
-
-.container{
-    width: 100%;
-    margin: 0 auto;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+/*==========Container do Header =============*/
+.container {
+    width: 90%;
+    margin-left: 1.5rem; 
+    margin-right: 1.5rem; 
 }
-
-
-/*======== HOME ========*/
